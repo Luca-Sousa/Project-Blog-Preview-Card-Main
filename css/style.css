@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Figtree;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.box{
+    width: 380px;
+    height: 532px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 24px;
+    margin: 0 24px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 15px 15px;
+}
+
+.box-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box-content{
+    width: 100%;
+    height: 194px;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-content-category{
+    width: 82px;
+    height: 29px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.box-content-category h4{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.box-content p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.box-content h2{
+    font-weight: 800;
+    color: hsl(47, 88%, 63%);
+}
+
+.box-content p:last-child{
+    font-weight: normal;
+    color: hsl(0, 0%, 50%);
+}
+
+.box-author{
+    width: 129px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-author img{
+    width: 32px;
+    height: 100%;
+}
+
+.box-author p{
+    font-size: 14px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
